@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+
+header {
+  text-align: center;
+  height: 100px;
+  padding-top: 20px;
+  background-color: cadetblue;
+}
+
+.playfield {
+  border: solid 5px black;
+  margin-top: 100px;
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.choice {
+  margin-top: 100px;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.result {
+  margin-top: 100px;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+.choice:empty {
+  display: none;
+}
